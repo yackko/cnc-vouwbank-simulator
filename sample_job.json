@@ -1,0 +1,27 @@
+// jobs/sample_job.json
+{
+  "name": "Sample Test Piece",
+  "sheet": {
+    "id": "SampleSheet-001",
+    "original_length_mm": 200.0,
+    "thickness_mm": 1.5,
+    "width_mm": 50.0,
+    "material_name": "Steel" // Matches one of the MaterialName enum variants
+  },
+  "steps": [
+    {
+      "sequence_order": 1,
+      "position_mm": 50.0,
+      "target_angle_deg": 90.0,
+      "radius_mm": 1.5,
+      "direction": "Up" // Matches BendDirection enum
+    },
+    {
+      "sequence_order": 2,
+      "position_mm": 150.0,
+      "target_angle_deg": 45.0,
+      "radius_mm": 2.0,
+      "direction": "Down"
+    }
+  ]
+}

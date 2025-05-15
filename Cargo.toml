@@ -1,0 +1,19 @@
+[package]
+name = "egui_skeleton"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+# Add to Cargo.toml dependencies
+chrono = "0.4"
+eframe = "0.27.2" # Check for the latest version
+egui = "0.27.2"   # Check for the latest version
+image = "0.25.1"  # For loading images. Check for latest.
+thiserror = "1.0" # For error handling
+
+# If you want native file dialogs (optional for this skeleton)
+rfd = "0.14"
+
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
